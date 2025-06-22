@@ -16,7 +16,7 @@ function Login() {
     console.log(data)
     try {
       await axios.post(apiUrl+'auth/login', data);
-      navigate('/')
+      navigate('/crear')
     } catch (error) {
       console.log(error);
     }

@@ -11,7 +11,7 @@ export default function EncuestaCreada() {
             {/* Navbar */}
             <nav className="bg-blue-900 text-white px-6 py-4 flex items-center justify-between">
                 <div className="flex items-center">
-                    <img src="/public/EncuestappLogo.png" alt="Logo" className="h-12 w-auto" />
+                    <img src="/EncuestappLogo.png" alt="Logo" className="h-12 w-auto" />
                 </div>
                 <ul className="flex space-x-8 text-lg">
                     <li><a href="/" className="hover:text-blue-300">Inicio</a></li>
