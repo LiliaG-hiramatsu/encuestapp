@@ -26,7 +26,7 @@ RUN npm install
 EXPOSE 8080
 
 # Iniciar el servidor
-CMD ["node", "backend/bin/www.js"]
+CMD ["node", "bin/www.js"]
 
 
 # Usa una imagen base oficial de Nginx.

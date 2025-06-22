@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: miapp-container
-          image: lilo2024/pipeline-prueba:latest
+          image: lilo2024/encuestapp:latest
           ports:
             - containerPort: 8080
           env:

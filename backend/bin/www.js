@@ -26,7 +26,7 @@ let server = http.createServer(app);
 
 let ready = () => {
   console.log('server ready on port ' + port);
-  connect(process.env.LINK_DB)
+  connect(process.env.MONGO_URI)
     .then(() => console.log('database connected'))
     .catch(err=> console.log(err))
 }
