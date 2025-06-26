@@ -5,6 +5,9 @@ FROM node:18-alpine AS build-frontend
 WORKDIR /app/frontend
 COPY frontend/ ./
 
+# Agregar variable de entorno
+ENV VITE_URL_BACK=https://encuestapp.com/api/
+
 # Instalar dependencias y build
 RUN npm install && npm run build
 
